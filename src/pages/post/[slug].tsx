@@ -3,7 +3,7 @@ import Link from 'next/link';
 import React from 'react';
 import { DocumentRenderer, DocumentRendererProps } from '@keystone-6/document-renderer';
 import { fetchGraphQL, gql } from '../../utils';
-import { componentBlocks } from "../../../component-blocks-for-renderer";
+import { componentBlocks } from "../../../component-blocks";
 
 // By default the DocumentRenderer will render unstyled html elements.
 // We're customising how headings are rendered here but you can customise
